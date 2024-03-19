@@ -1,0 +1,71 @@
+#contenedor{
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    height: 100%;
+}
+
+.divA{
+    background-color: rgb(109, 233, 233);
+    height: 250px;
+    margin-bottom: 10px;
+}
+#contenedor2{
+    display: flex;
+    flex-direction: row; /* Alinear elementos en fila */
+    flex: 1; /* Ocupa el 100% del espacio restante verticalmente */
+}
+.divB {
+    background-color: rgb(226, 169, 169);
+    width: 70%; /* Ocupa el 70% del espacio del contenedor padre */
+    margin-right: 10px;
+    height: 300px;
+    ;
+}
+
+
+#container-home {
+    display: flex;
+    margin-top: -35.5%;
+    margin-left: 15px;
+    flex-direction: column; /* Alinear elementos horizontalmente */
+    flex-wrap: nowrap; /* Permitir que los elementos se envuelvan si no caben en una sola línea */
+}
+
+.divF {
+    background-color: rgb(228, 248, 116);
+    width: 30%;
+    align-self:flex-end; /* Estira el div solo verticalmente */
+    height: 700px;
+}
+
+
+#contenedor3{
+        position: relative; /* Posición relativa al elemento padre */
+        display: flex;
+        flex-direction: row; /* Alinear elementos horizontalmente */
+        align-items: flex-start; /* Alinear elementos en la parte superior del contenedor */
+}
+
+.divC, .divD, .divE {
+    width: 460px;
+    height: 400px;
+    margin: 5px; /* Margen alrededor de los elementos */
+}
+
+
+.divC {
+    background-color: rgb(230, 188, 110);
+    order: 1; /* Orden del elemento C */
+    margin-left: 0px;
+}
+
+.divD {
+    background-color: rgb(79, 248, 150);
+    order: 2; /* Orden del elemento D */
+}
+
+.divE {
+    background-color: rgb(245, 155, 237);
+    order: 3; /* Orden del elemento E */
+}
+
